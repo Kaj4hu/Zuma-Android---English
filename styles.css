@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background: #6f6f6f;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.app-container {
+    background: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.download-button, .coming-soon, .discord-button {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.coming-soon {
+    background: #333;
+    cursor: not-allowed;
+}
+.download-button:hover {
+    background: #218838;
+}
+.discord-button {
+    background: #5865F2;
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discord-button:hover {
+    background: #4854c5;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.github-button {
+background: #24292e;
+margin-top: 10px;
+display: block;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+color: white;
+text-align: center;
+padding: 10px 15px;
+font-size: 16px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.github-button:hover {
+background: #333;
+}
+.github-button, .discord-button, .youtube-container {
+display: block;
+width: 200px;
+margin: 10px auto;
+text-align: center;
+}
+
+.github-button {
+background: #24292e;
+color: white;
+padding: 10px 15px;
+font-size: 16px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.github-button:hover {
+background: #1a1a1a;
+}
+
+.youtube-container {
+display: flex;
+justify-content: space-between;
+}
+
+.youtube-button {
+background: #FF0000;
+color: white;
+padding: 10px 0;
+font-size: 16px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+width: 48%;
+text-align: center;
+}
+
+.youtube-button:hover {
+background: #cc0000;
+}
