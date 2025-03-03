@@ -6,7 +6,7 @@ https://kaj4hu.github.io/Zuma-Android---English/
 Here you can pick from many versions!
 
 ## Credits
-- Zuma Android ported by Transmension
+- Zuma Deluxe ported by Transmension
 - Under translation in English by Cry
 - Website maintained by Kaj4hu
 
