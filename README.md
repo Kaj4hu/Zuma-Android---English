@@ -14,3 +14,4 @@ Here you can pick from many versions!
 [Our Discord!](https://discord.gg/d6RscryW4E)  
 [Kaj4hu - YT](https://www.youtube.com/@Kajahu0715)  
 [Cry - YT](https://www.youtube.com/@crygd4225)
+[Original Zuma Android Project - Simplified Chinese](https://b23.tv/SHstwoM)
