@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Zuma Android in English Downloads</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <style>
+        /* Added shutdownNotice CSS here */
+        #shutdownNotice {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #552288;
+            color: white;
+            padding: 16px 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            font-family: Arial, sans-serif;
+            max-width: 320px;
+            text-align: left;
+        }
 
+        #shutdownNotice button {
+            background: #ffffff22;
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
 
+<!-- Warning notice -->
+<div id="shutdownNotice">
+  <strong>⚠️ Warning:</strong><br /><br />
+  As of 15th June of 2025, <strong>Zuma Android in English</strong> app and website will be shut down permanently.<br /><br />
+  Thank you for playing and supporting us! ❤️<br /><br />
+  <button onclick="document.getElementById('shutdownNotice').style.display='none'">OK</button>
+</div>
+
 <header>
-    <img src="https://i.imgur.com/42PAu61.png" alt="Logo" class="logo">
+    <img src="https://i.imgur.com/42PAu61.png" alt="Logo" class="logo" />
     <h1>Zuma Android in English fast-install</h1>
     <p>Install Zuma Android in English, with one click</p>
 </header>
@@ -62,8 +94,8 @@
             <button class="download-button">Install</button>
         </a>
     </div>
-    
-        <div class="app-container">
+
+    <div class="app-container">
         <h3>ver. 0.2</h3>
         <a href="https://drive.google.com/uc?export=download&id=1Ab1jMG4yxfmb-U1B0JlPRj1d1hn_o_iw">
             <button class="download-button">Install</button>
@@ -77,6 +109,7 @@
         </a>
     </div>
 </main>
+
 <!-- Credits -->
 <footer>
     <p>&copy; All of the work was made by Cry</p>
