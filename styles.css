@@ -118,11 +118,11 @@ footer {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: #552288;
+    background: linear-gradient(to bottom, #ff0000, #330000);
     color: white;
     padding: 16px 20px;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     font-family: Arial, sans-serif;
     max-width: 320px;
