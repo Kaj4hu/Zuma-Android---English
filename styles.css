@@ -71,62 +71,70 @@ footer {
     margin-top: 20px;
 }
 .github-button {
-background: #24292e;
-margin-top: 10px;
-display: block;
-width: 200px;
-margin-left: auto;
-margin-right: auto;
-color: white;
-text-align: center;
-padding: 10px 15px;
-font-size: 16px;
-border-radius: 5px;
-text-decoration: none;
-font-weight: bold;
+    background: #24292e;
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
-
 .github-button:hover {
-background: #333;
+    background: #1a1a1a;
 }
 .github-button, .discord-button, .youtube-container {
-display: block;
-width: 200px;
-margin: 10px auto;
-text-align: center;
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
 }
-
-.github-button {
-background: #24292e;
-color: white;
-padding: 10px 15px;
-font-size: 16px;
-border-radius: 5px;
-text-decoration: none;
-font-weight: bold;
-}
-
-.github-button:hover {
-background: #1a1a1a;
-}
-
 .youtube-container {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
-
 .youtube-button {
-background: #FF0000;
-color: white;
-padding: 10px 0;
-font-size: 16px;
-border-radius: 5px;
-text-decoration: none;
-font-weight: bold;
-width: 48%;
-text-align: center;
+    background: #FF0000;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 48%;
+    text-align: center;
+}
+.youtube-button:hover {
+    background: #cc0000;
 }
 
-.youtube-button:hover {
-background: #cc0000;
+/* Shutdown Notice */
+#shutdownNotice {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #552288;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    max-width: 320px;
+    text-align: left;
+}
+
+#shutdownNotice button {
+    background: #ffffff22;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
 }
